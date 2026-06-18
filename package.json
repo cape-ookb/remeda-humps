@@ -1,0 +1,62 @@
+{
+  "name": "remeda-humps",
+  "version": "4.0.0",
+  "description": "Recursive camelCase of object keys and arrays of objects. Powered by Remeda, written in TypeScript.",
+  "type": "module",
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./lib/index.cjs"
+    },
+    "./createHumps": {
+      "types": "./lib/createHumps.d.ts",
+      "import": "./lib/createHumps.js",
+      "require": "./lib/createHumps.cjs"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "lib"
+  ],
+  "author": "Kai Curry <kai@wjerk.com> (https://www.kaicurry.com/)",
+  "repository": "cape-ookb/remeda-humps",
+  "bugs": {
+    "url": "https://github.com/cape-ookb/remeda-humps/issues"
+  },
+  "keywords": [
+    "utils",
+    "camel",
+    "case",
+    "camelcase",
+    "remeda",
+    "typescript",
+    "converter",
+    "keys",
+    "objects",
+    "humps"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "remeda": "^2.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0",
+    "vitest": "^3.0.2"
+  }
+}

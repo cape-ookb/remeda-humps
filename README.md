@@ -1,7 +1,7 @@
 # remeda-humps
 
 [![npm](https://img.shields.io/npm/v/remeda-humps.svg)](https://www.npmjs.com/package/remeda-humps)
-[![license](https://img.shields.io/npm/l/remeda-humps.svg)](https://github.com/cape-ookb/remeda-humps/blob/main/package.json)
+[![license](https://img.shields.io/npm/l/remeda-humps.svg)](https://github.com/cape-ookb/remeda-humps/blob/main/LICENSE)
 [![types](https://img.shields.io/npm/types/remeda-humps.svg)](https://www.npmjs.com/package/remeda-humps)
 
 Converting object keys to camelCase. Works on deeply nested objects/arrays. Handy for converting underscore keys to camelCase. Written in TypeScript and powered by [Remeda](https://remedajs.com) — small, tree-shakeable, and fully typed.
